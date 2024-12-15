@@ -1,0 +1,33 @@
+task_name: ""
+
+dir_log: "./runs"
+dir_model: "./weights"
+
+data:
+  dataset: "noise" 
+  root: "data" # Root directory for dataset
+
+model:
+  hidden_dim: 128
+  output_dim: 128
+  num_layers: 3
+
+pretrain:
+  lr: 0.01
+  num_epochs: 500
+  weight_decay: 0.001
+
+
+hyperparameters:
+  tau: 0.1
+  thres: 0.9
+  lam: 0.5
+  lam2: 0.5
+
+augmentation:
+  p_edge_1: 0.5
+  p_node_1: 0.5
+  p_edge_2: 0.1
+  p_node_2: 0.1
+
+device: 'cuda' # GPU to use
