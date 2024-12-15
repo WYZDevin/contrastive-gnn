@@ -2,7 +2,7 @@
 
 This project implements contrastive learning approaches for GNN to improve node classification performance in small datasets. The implementation is based on the paper "[Contrastive Learning for Graph Neural Networks](https://github.com/Junseok0207/GraFN)". Some of the code is adapted from the original code of the paper, but majority of the impementation was written by our group.
 
-The data we are using is a provided dataset collected in collaboration with the local government, therefore we are unable to release the dataset. However, if needed, we can provide a mock dataset with random noise added to the original data for testing, if Prof/TA is interested in running the pipeline.
+The data we are using is a provided dataset collected in collaboration with the local government, therefore we are unable to release the dataset. However, if needed, we can provide a mock dataset with random noise added to the original data for testing (since the original data contains sensitive information), if Prof/TA is interested in running the pipeline.
 
 ## Overview
 
